@@ -5,9 +5,9 @@
 ## Articles for read ##
 
 + [background-attachment](https://developer.mozilla.org/ru/docs/Web/CSS/background-attachment)
-+ [blur](https://developer.mozilla.org/ru/docs/Web/CSS/filter-function/blur)
-+ [scale()](https://webref.ru/css/value/scale)
-+ [overflow](https://developer.mozilla.org/ru/docs/Web/CSS/overflow)
++ [filter: blur](https://developer.mozilla.org/ru/docs/Web/CSS/filter-function/blur)
++ [transform: scale](https://webref.ru/css/value/scale)
++ [overflow: hidden](https://developer.mozilla.org/ru/docs/Web/CSS/overflow)
 + [opacity](https://developer.mozilla.org/ru/docs/Web/CSS/opacity)
 + [clip-path](https://developer.mozilla.org/ru/docs/Web/CSS/clip-path)
 + [:nth-child](https://developer.mozilla.org/ru/docs/Web/CSS/:nth-child)
