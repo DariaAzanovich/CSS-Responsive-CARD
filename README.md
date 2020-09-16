@@ -1,5 +1,7 @@
 # CSS-Responsive-CARD
 
+[Watch task](https://dariaazanovich.github.io/CSS-Responsive-CARD/)
+
 Сверстать как в [примере](https://oleg-kolosov.github.io/CSS-Responsive-CARD/), используя flex-box.
 
 ## Articles for read ##
