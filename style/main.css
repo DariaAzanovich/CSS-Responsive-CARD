@@ -28,20 +28,6 @@ body {
 
 /* ------------------------------- CARD style ------------------------------- */
 
-.semicircle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 200px;
-  height: 100px;
-  margin-bottom: 10%;
-
-  border-bottom: 100% solid #ffaf00;
-  border-radius: 50%;
-  transform: scale(1.5);
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -54,6 +40,21 @@ body {
   box-shadow: 3px 18px 81px -20px rgba(51, 51, 51, 0.75);
 
   overflow: hidden;
+  transition: 0.5s;
+}
+
+.semicircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10%;
+
+  border-bottom: 100% solid #ffaf00;
+  border-radius: 50%;
+  transform: scale(1.5);
 }
 
 .header {
@@ -102,17 +103,14 @@ button {
 /* ------------------------------ :hover effect ---------------------------- */
 .card:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 
 .card:not(:hover)
 {
   transform: scale(1);
-  transition: 0.5s;
 }
 
 .wrap:hover > .card:not(:hover) {
   filter: blur(4px);
   transform: scale(0.8);
-  transition: 0.5s;
 }
